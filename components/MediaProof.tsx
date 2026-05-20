@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import { Camera, CheckCircle, HouseLine } from "@phosphor-icons/react/dist/ssr";
 import { mediaFeatures } from "@/data/site";
 import { Container, Section, SectionHeader } from "@/components/ui";
@@ -12,7 +12,7 @@ export function MediaProof() {
             <SectionHeader
               label="Real job imagery"
               title="A premium site needs proof you can see."
-              body="The upgraded demo uses real maintenance photography, tinted and framed to stay inside the NorthStar white and dark-green identity."
+              body="Real maintenance photography is tinted and framed to stay inside the NorthStar white and dark-green identity."
             />
             <div className="mt-8 rounded-[8px] border border-north bg-north p-6 text-paper">
               <Camera size={30} weight="bold" />
@@ -62,7 +62,7 @@ export function MediaProof() {
                     </p>
                   </div>
                   <p className="border-t border-north/14 pt-4 text-xs font-semibold text-north/58">
-                    Free stock photography stored locally in the project.
+                    Photo evidence supports clear landlord updates.
                   </p>
                 </div>
               </article>

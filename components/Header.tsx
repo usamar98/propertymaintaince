@@ -1,4 +1,4 @@
-﻿import {
+import {
   ArrowRight,
   PhoneCall,
   WhatsappLogo,
@@ -63,5 +63,3 @@ export function Header() {
     </header>
   );
 }
-
-

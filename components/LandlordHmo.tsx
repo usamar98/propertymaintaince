@@ -11,7 +11,7 @@ export function LandlordHmo() {
             <SectionHeader
               label="Landlord and HMO support"
               title="Made for people managing more than one repair at a time."
-              body="Letting agents and HMO operators need more than a phone number. This demo positions the company as organised, responsive, and ready for repeat maintenance work."
+              body="Letting agents and HMO operators need more than a phone number. This section positions NorthStar as organised, responsive, and ready for repeat maintenance work."
             />
             <div className="mt-8 flex flex-wrap gap-2">
               <Tag>Landlords</Tag>
@@ -51,7 +51,7 @@ export function LandlordHmo() {
             <div className="mt-6 rounded-[6px] border border-north/18 bg-north p-5 text-paper">
               <HouseLine size={24} weight="bold" />
               <p className="mt-3 text-sm font-semibold">
-                Demo upsell path: website today, repair dashboard next.
+                Growth path: website enquiries today, repair dashboard next.
               </p>
             </div>
           </div>

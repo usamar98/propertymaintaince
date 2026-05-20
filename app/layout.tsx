@@ -4,12 +4,12 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "NorthStar Property Maintenance | Manchester Repair Services",
   description:
-    "Responsive demo website for UK property maintenance companies, landlord repairs, HMO maintenance, and letting-agent repair contractors.",
+    "Property repair and maintenance for landlords, HMO owners, letting agents, and homeowners across Manchester.",
   metadataBase: new URL("https://northstarmaintenance.co.uk"),
   openGraph: {
     title: "NorthStar Property Maintenance",
     description:
-      "Manchester repair request website demo with landlord maintenance packages and repair tracker preview.",
+      "Manchester repair request service with landlord maintenance packages and repair tracker preview.",
     type: "website",
   },
 };

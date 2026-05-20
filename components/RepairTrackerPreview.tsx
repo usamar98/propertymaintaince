@@ -1,5 +1,5 @@
 import { ClipboardText } from "@phosphor-icons/react/dist/ssr";
-import { demoJobs } from "@/data/site";
+import { trackerJobs } from "@/data/site";
 import { Container, Section, SectionHeader } from "@/components/ui";
 
 export function RepairTrackerPreview() {
@@ -9,9 +9,9 @@ export function RepairTrackerPreview() {
         <div className="grid gap-10 lg:grid-cols-[0.72fr_1.28fr] lg:items-start">
           <div>
             <SectionHeader
-              label="Demo Repair Tracker Preview"
-              title="A website that opens the door to a repair dashboard upsell."
-              body="This preview shows how job visibility could look after the enquiry. It is intentionally simple, but it gives prospects a reason to ask for the bigger system."
+              label="Repair Tracker Preview"
+              title="A repair tracker preview that makes the service feel organised."
+              body="This preview shows landlords and agents how repair visibility could work after the enquiry: urgency, contractor status, approvals, and completion in one place."
             />
           </div>
 
@@ -22,7 +22,7 @@ export function RepairTrackerPreview() {
               <span>Status</span>
             </div>
             <div className="divide-y divide-north/12">
-              {demoJobs.map((job) => (
+              {trackerJobs.map((job) => (
                 <div
                   key={`${job.title}-${job.status}`}
                   className="grid grid-cols-1 gap-2 px-4 py-4 sm:grid-cols-[1.4fr_0.7fr_1fr] sm:items-center sm:px-5"

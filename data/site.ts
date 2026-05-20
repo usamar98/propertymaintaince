@@ -1,4 +1,4 @@
-﻿export const business = {
+export const business = {
   name: "NorthStar Property Maintenance",
   location: "Manchester, UK",
   phone: "+44 7400 123456",
@@ -59,7 +59,7 @@ export const reasons = [
   },
   {
     title: "Updates built for letting agents",
-    body: "Every demo workflow mirrors the information agents need: access notes, approval status, urgency, contractor stage, and completion detail.",
+    body: "Every repair workflow mirrors the information agents need: access notes, approval status, urgency, contractor stage, and completion detail.",
   },
   {
     title: "Manchester-based coverage",
@@ -67,7 +67,7 @@ export const reasons = [
   },
   {
     title: "Professional evidence capture",
-    body: "Photo upload prompts and structured repair categories make the request feel more serious than a basic contact form.",
+    body: "Photo prompts and structured repair categories make the request feel more serious than a basic contact form.",
   },
 ];
 
@@ -79,7 +79,7 @@ export const landlordHighlights = [
   "End-of-tenancy repair bundles before relisting",
 ];
 
-export const demoJobs = [
+export const trackerJobs = [
   {
     title: "Bathroom leak",
     urgency: "High",
@@ -111,9 +111,8 @@ export const projects = [
   {
     area: "Salford",
     title: "Bathroom leak contained before floor damage spread",
-    image: "/images/boiler-repair.jpg",
-    imageAlt:
-      "Close-up of a technician adjusting heating equipment during a property maintenance visit",
+    image: "/images/bathroom-leak.jpg",
+    imageAlt: "Water running into a bathroom sink during a plumbing repair visit",
     before:
       "Active leak through bath seal, tenant reporting wet flooring and ceiling marks below.",
     after:
@@ -132,12 +131,69 @@ export const projects = [
   {
     area: "Stockport",
     title: "End-of-tenancy refresh completed before viewings",
-    image: "/images/light-repair.jpg",
-    imageAlt: "Handyman standing on a ladder while repairing a light in a room",
+    image: "/images/painting-refresh.jpg",
+    imageAlt: "Paint brush applying a fresh coat to an interior wall",
     before:
       "Scuffed walls, loose handle, cracked sealant, and several minor handyman items.",
     after:
       "Decorating touch-ups, lock check, sealant replacement, and agent-ready completion report.",
+  },
+];
+
+export const repairWork = [
+  {
+    title: "Before/after bathroom leak",
+    area: "Salford flat",
+    status: "Completed same day",
+    image: "/images/bathroom-leak.jpg",
+    alt: "Running water in a bathroom sink during plumbing work",
+    summary:
+      "Bath seal failure and slow waste leak isolated before it damaged the ceiling below.",
+  },
+  {
+    title: "Damp and mould wall",
+    area: "Oldham HMO room",
+    status: "Treatment booked",
+    image: "/images/wall-repair.jpg",
+    alt: "Worker repairing an interior wall with sanding equipment",
+    summary:
+      "Affected wall treated, ventilation notes recorded, and follow-up inspection scheduled.",
+  },
+  {
+    title: "Broken lock",
+    area: "Manchester townhouse",
+    status: "Secure access restored",
+    image: "/images/broken-lock.jpg",
+    alt: "Close-up of a worn door lock and keyhole",
+    summary:
+      "Front door lock issue handled as an emergency with tenant-safe access notes.",
+  },
+  {
+    title: "Boiler and heating repair",
+    area: "Bury rental",
+    status: "Landlord approval sent",
+    image: "/images/boiler-repair.jpg",
+    alt: "Technician working on boiler and heating controls",
+    summary:
+      "No-heat report triaged, heating controls inspected, and approval notes prepared.",
+  },
+  {
+    title: "Gutter repair",
+    area: "Rochdale terrace",
+    status: "Weatherproofed",
+    image: "/images/gutter-roof.jpg",
+    alt: "Roofer working on a residential roof repair",
+    summary:
+      "Overflowing gutter and roof edge checked after heavy rain, with photos sent to owner.",
+  },
+  {
+    title: "Painting and end-of-tenancy refresh",
+    area: "Stockport house",
+    status: "Ready for viewings",
+    image: "/images/painting-refresh.jpg",
+    alt: "Paint brush applying fresh paint to an interior wall",
+    summary:
+      "Scuffs, sealant, minor repairs, and decoration touch-ups completed before relisting.",
   },
 ];
 
@@ -249,30 +305,30 @@ export const packages = [
     features: [
       "Multi-property workflow",
       "Approval stages",
-      "Repair tracker dashboard upsell",
+      "Repair tracker dashboard upgrade",
     ],
   },
 ];
 
 export const faqs = [
   {
-    question: "Is this connected to a real repair system?",
+    question: "How quickly can urgent repairs be handled?",
     answer:
-      "No. This is a front-end demo with local mock data, designed to show how a property maintenance company could capture repair requests and preview a tracker dashboard.",
+      "Emergency jobs are triaged first, with phone or WhatsApp contact for leaks, broken locks, unsafe electrics, and heating issues affecting occupied properties.",
   },
   {
-    question: "Can the content be changed for another city or company?",
+    question: "Can you support landlords with multiple properties?",
     answer:
-      "Yes. Business details, service areas, packages, testimonials, and tracker jobs are stored as local content and can be swapped for a real client.",
+      "Yes. The site is structured around portfolio work, with address details, access notes, urgency levels, approval stages, and photo evidence captured from the first request.",
   },
   {
-    question: "Does the repair form send emails?",
+    question: "Can tenants submit repair details directly?",
     answer:
-      "Not in this demo. It shows a success state and ticket preview only. Email, CRM, Google review embeds, or dashboard integrations can be added as a paid upgrade.",
+      "Yes. The form collects contact details, category, urgency, access times, property address, postcode, photos, and repair notes so the team can respond with context.",
   },
   {
-    question: "Who is this website aimed at?",
+    question: "Which areas do you cover?",
     answer:
-      "Landlords, HMO owners, letting agents, rental property managers, homeowners, and contractors who want more repair enquiries from local searches.",
+      "NorthStar covers Manchester, Salford, Bolton, Stockport, Oldham, Bury, Rochdale, and nearby Greater Manchester rental properties.",
   },
 ];

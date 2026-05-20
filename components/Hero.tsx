@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import {
   ArrowRight,
   ClipboardText,
@@ -79,7 +79,7 @@ export function Hero() {
                 <div className="absolute bottom-4 left-4 right-4 rounded-[6px] border border-paper bg-paper p-4 text-north">
                   <p className="text-sm font-semibold">Photo-led repair proof</p>
                   <p className="mt-1 text-xs leading-5 text-north/68">
-                    Real work imagery makes the demo feel like a serious
+                    Real work imagery makes the website feel like a serious
                     contractor site, not a template.
                   </p>
                 </div>

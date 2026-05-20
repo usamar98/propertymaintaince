@@ -9,9 +9,7 @@ export function Footer() {
           <div>
             <p className="text-xl font-semibold">{business.name}</p>
             <p className="mt-3 max-w-2xl text-sm leading-6 text-paper/72">
-              Responsive demo website for UK property maintenance companies,
-              landlord repair services, HMO maintenance firms, and letting-agent
-              repair contractors.
+              Property repair and maintenance for landlords, letting agents, HMO operators, homeowners, and managed rentals across Manchester.
             </p>
           </div>
           <nav className="flex flex-wrap gap-4">
@@ -28,7 +26,7 @@ export function Footer() {
         </div>
 
         <div className="mt-10 flex flex-col gap-3 border-t border-paper/20 pt-6 text-sm text-paper/70 sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2026 {business.name}. Demo website project.</p>
+          <p>© 2026 {business.name}. Property repair and maintenance services.</p>
           <p>{business.location}</p>
         </div>
       </Container>

@@ -21,7 +21,7 @@ export function WhyChooseUsPanel() {
               A maintenance website should sell trust before the first call.
             </h2>
             <p className="mt-4 max-w-3xl text-base leading-7 text-paper/78">
-              This demo is written around practical buyer concerns: response
+              This section is written around practical buyer concerns: response
               speed, access, evidence, approvals, and portfolio visibility.
             </p>
           </div>

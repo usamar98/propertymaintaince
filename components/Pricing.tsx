@@ -10,7 +10,7 @@ export function Pricing() {
           <SectionHeader
             label="Pricing and maintenance packages"
             title="Package the offer so prospects know what to ask for."
-            body="A property maintenance company can use these tiers for real services, or as a demo structure for monthly website and dashboard upsells."
+            body="These tiers make the offer easy to understand for one-off repairs, managed landlord support, and agent portfolio maintenance."
           />
           <ButtonLink href="#repair-request" className="w-fit">
             Start with a request

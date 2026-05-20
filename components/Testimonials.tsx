@@ -1,4 +1,4 @@
-﻿import { Quotes } from "@phosphor-icons/react/dist/ssr";
+import { Quotes } from "@phosphor-icons/react/dist/ssr";
 import { testimonials } from "@/data/site";
 import { Container, Section, SectionHeader } from "@/components/ui";
 
@@ -10,7 +10,7 @@ export function Testimonials() {
           <SectionHeader
             label="Testimonials"
             title="Proof points written for the buyers you want to impress."
-            body="These demo testimonials speak to conversion, tenant communication, and dashboard upsell potential."
+            body="These testimonials speak to speed, tenant communication, and portfolio maintenance confidence."
           />
         </div>
 
@@ -49,4 +49,3 @@ export function Testimonials() {
     </Section>
   );
 }
-

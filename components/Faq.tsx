@@ -9,7 +9,7 @@ export function Faq() {
         <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr]">
           <SectionHeader
             label="FAQ"
-            title="Questions prospects ask before buying the demo."
+            title="Questions landlords and agents ask before booking."
             body="The answers are honest about what is mocked today and what can become a paid integration later."
           />
 

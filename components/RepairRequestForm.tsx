@@ -33,7 +33,7 @@ export function RepairRequestForm() {
     event.preventDefault();
     const form = event.currentTarget;
     const formData = new FormData(form);
-    const name = getValue(formData, "name") || "Demo Customer";
+    const name = getValue(formData, "name") || "NorthStar Customer";
     const address = getValue(formData, "address") || "Manchester property";
     const category = getValue(formData, "category") || "General Handyman Services";
     const urgency = getValue(formData, "urgency") || "Medium";
@@ -117,10 +117,10 @@ export function RepairRequestForm() {
             <span className="flex min-h-32 cursor-pointer flex-col items-center justify-center rounded-[8px] border border-dashed border-north/45 px-4 py-6 text-center transition hover:border-north">
               <UploadSimple size={28} weight="bold" className="text-north" />
               <span className="mt-3 text-sm font-semibold text-north">
-                Placeholder upload UI
+                Upload repair photos
               </span>
               <span className="mt-1 text-xs leading-5 text-north/62">
-                Add leak, damp, boiler, lock, gutter, or damage photos in a real build.
+                Add photos of leaks, damp, boiler faults, locks, gutters, or property damage.
               </span>
             </span>
             <input className="sr-only" type="file" name="photos" multiple />
@@ -146,7 +146,7 @@ export function RepairRequestForm() {
           className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-[6px] border border-north bg-north px-5 py-3 text-sm font-semibold text-paper transition duration-300 ease-out hover:bg-paper hover:text-north disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
         >
           <ClipboardText size={18} weight="bold" />
-          {isSending ? "Creating demo ticket..." : "Submit Repair Request"}
+          {isSending ? "Creating repair ticket..." : "Submit Repair Request"}
         </button>
       </form>
 
@@ -154,10 +154,9 @@ export function RepairRequestForm() {
         <div className="flex items-start gap-3">
           <CheckCircle size={28} weight="bold" />
           <div>
-            <h3 className="text-xl font-semibold">Form success state</h3>
+            <h3 className="text-xl font-semibold">Repair request captured</h3>
             <p className="mt-2 text-sm leading-6 text-paper/76">
-              When submitted, the demo creates a local ticket preview without
-              sending data to a backend.
+              When submitted, the form creates a repair ticket preview so customers know their request has been captured.
             </p>
           </div>
         </div>
@@ -179,11 +178,10 @@ export function RepairRequestForm() {
         ) : (
           <div className="mt-6 rounded-[8px] border border-paper/35 p-5">
             <p className="text-sm font-semibold text-paper">
-              Submit the form to generate a demo job ticket.
+              Submit the form to generate a repair job ticket.
             </p>
             <p className="mt-2 text-sm leading-6 text-paper/72">
-              The ticket shows the exact upsell path from website enquiry to
-              repair tracking dashboard.
+              The ticket keeps the enquiry organised from first contact through scheduling.
             </p>
           </div>
         )}

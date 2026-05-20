@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import { ArrowRight, PaintBrush, SealCheck } from "@phosphor-icons/react/dist/ssr";
 import { projects } from "@/data/site";
 import { Container, Section, SectionHeader } from "@/components/ui";

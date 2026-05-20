@@ -1,4 +1,4 @@
-﻿import { GoogleLogo, Star } from "@phosphor-icons/react/dist/ssr";
+import { GoogleLogo, Star } from "@phosphor-icons/react/dist/ssr";
 import { googleReviews } from "@/data/site";
 import { Container, Section, SectionHeader } from "@/components/ui";
 
@@ -10,13 +10,13 @@ export function GoogleReviews() {
           <SectionHeader
             label="Client Google reviews"
             title="Review proof that feels ready for a real maintenance brand."
-            body="This static demo section is shaped like a Google reviews panel and can later be replaced with live Google Business Profile embeds or API-backed reviews."
+            body="Clear review proof helps landlords judge response speed, communication, and workmanship before they book."
           />
           <div className="rounded-[8px] border border-north bg-north p-5 text-paper">
             <div className="flex items-center gap-3">
               <GoogleLogo size={26} weight="bold" />
               <div>
-                <p className="text-sm font-semibold">Google rating demo</p>
+                <p className="text-sm font-semibold">Google rating</p>
                 <p className="mt-1 text-2xl font-semibold">5.0</p>
               </div>
             </div>

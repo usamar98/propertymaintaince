@@ -1,4 +1,4 @@
-﻿import { MapPin, NavigationArrow, PhoneCall } from "@phosphor-icons/react/dist/ssr";
+import { MapPin, NavigationArrow, PhoneCall } from "@phosphor-icons/react/dist/ssr";
 import { business } from "@/data/site";
 import { ButtonLink, Container, Section, SectionHeader, Tag } from "@/components/ui";
 
@@ -11,7 +11,7 @@ export function ServiceAreaMap() {
             <SectionHeader
               label="Google Map"
               title="Manchester coverage with a clear local footprint."
-              body="A live Google Maps embed gives the demo a real local signal without needing a paid API key or backend integration."
+              body="A live Google Maps embed gives the business a strong local signal without needing a paid API key or backend integration."
             />
             <div className="mt-8 flex flex-wrap gap-2">
               {business.serviceAreas.map((area) => (

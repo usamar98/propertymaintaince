@@ -33,3 +33,10 @@ a {
 summary::-webkit-details-marker {
   display: none;
 }
+
+
+@media (max-width: 767px) {
+  body {
+    padding-bottom: 82px;
+  }
+}
