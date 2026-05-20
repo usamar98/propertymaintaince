@@ -1,0 +1,43 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NorthStar maintenance van</title>
+  <desc id="desc">A two-colour line illustration of a property maintenance van outside terraced houses.</desc>
+  <rect width="960" height="540" fill="#FFFFFF"/>
+  <path d="M78 420H882" stroke="#063B2B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M118 214L206 142L294 214V420H118V214Z" fill="#FFFFFF" stroke="#063B2B" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M294 214L382 142L470 214V420H294V214Z" fill="#FFFFFF" stroke="#063B2B" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M470 214L558 142L646 214V420H470V214Z" fill="#FFFFFF" stroke="#063B2B" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M646 214L734 142L822 214V420H646V214Z" fill="#FFFFFF" stroke="#063B2B" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M164 260H236V330H164V260Z" fill="#FFFFFF" stroke="#063B2B" stroke-width="7"/>
+  <path d="M340 260H414V330H340V260Z" fill="#FFFFFF" stroke="#063B2B" stroke-width="7"/>
+  <path d="M516 260H590V330H516V260Z" fill="#FFFFFF" stroke="#063B2B" stroke-width="7"/>
+  <path d="M692 260H766V330H692V260Z" fill="#FFFFFF" stroke="#063B2B" stroke-width="7"/>
+  <path d="M189 420V358H252V420" stroke="#063B2B" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M365 420V358H428V420" stroke="#063B2B" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M541 420V358H604V420" stroke="#063B2B" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M717 420V358H780V420" stroke="#063B2B" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M118 214H822" stroke="#063B2B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M184 107L206 72L228 107L266 118L230 132L206 166L183 132L146 118L184 107Z" fill="#FFFFFF" stroke="#063B2B" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M194 126H162" stroke="#063B2B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M248 126H218" stroke="#063B2B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M206 114V84" stroke="#063B2B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M206 154V132" stroke="#063B2B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M236 377H682C714 377 742 398 751 428L762 464H201L212 428C221 398 204 377 236 377Z" fill="#FFFFFF" stroke="#063B2B" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M306 377L342 307H524C546 307 566 319 576 339L596 377H306Z" fill="#FFFFFF" stroke="#063B2B" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M352 326H454V377H326L352 326Z" fill="#FFFFFF" stroke="#063B2B" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M478 326H524C538 326 550 334 556 347L570 377H478V326Z" fill="#FFFFFF" stroke="#063B2B" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M250 424H699" stroke="#063B2B" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="304" cy="464" r="36" fill="#FFFFFF" stroke="#063B2B" stroke-width="8"/>
+  <circle cx="304" cy="464" r="14" fill="#FFFFFF" stroke="#063B2B" stroke-width="7"/>
+  <circle cx="656" cy="464" r="36" fill="#FFFFFF" stroke="#063B2B" stroke-width="8"/>
+  <circle cx="656" cy="464" r="14" fill="#FFFFFF" stroke="#063B2B" stroke-width="7"/>
+  <path d="M626 415H708" stroke="#063B2B" stroke-width="7" stroke-linecap="round"/>
+  <path d="M259 415H289" stroke="#063B2B" stroke-width="7" stroke-linecap="round"/>
+  <path d="M386 418H524" stroke="#063B2B" stroke-width="7" stroke-linecap="round"/>
+  <path d="M395 457H566" stroke="#063B2B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M395 484H566" stroke="#063B2B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M423 263L441 245L459 263" stroke="#063B2B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M441 245V285" stroke="#063B2B" stroke-width="7" stroke-linecap="round"/>
+  <path d="M604 117H698" stroke="#063B2B" stroke-width="7" stroke-linecap="round"/>
+  <path d="M604 143H744" stroke="#063B2B" stroke-width="7" stroke-linecap="round"/>
+  <path d="M604 169H720" stroke="#063B2B" stroke-width="7" stroke-linecap="round"/>
+</svg>
