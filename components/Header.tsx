@@ -1,4 +1,4 @@
-import {
+﻿import {
   ArrowRight,
   PhoneCall,
   WhatsappLogo,
@@ -8,7 +8,7 @@ import { ButtonLink, Container } from "@/components/ui";
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-30 border-b border-north/12 bg-paper/96 backdrop-blur">
+    <header className="sticky top-0 z-30 border-b border-north/12 bg-paper">
       <Container className="flex min-h-20 items-center justify-between gap-4">
         <a href="#top" className="group flex items-center gap-3">
           <span className="grid h-11 w-11 place-items-center rounded-[6px] border border-north bg-north text-lg font-semibold text-paper">
@@ -24,7 +24,7 @@ export function Header() {
           </span>
         </a>
 
-        <nav className="hidden items-center gap-6 lg:flex">
+        <nav className="hidden items-center gap-5 lg:flex">
           {navItems.map((item) => (
             <a
               key={item.href}
@@ -63,3 +63,5 @@ export function Header() {
     </header>
   );
 }
+
+

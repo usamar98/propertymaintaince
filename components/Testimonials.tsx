@@ -1,4 +1,4 @@
-import { Quotes } from "@phosphor-icons/react/dist/ssr";
+﻿import { Quotes } from "@phosphor-icons/react/dist/ssr";
 import { testimonials } from "@/data/site";
 import { Container, Section, SectionHeader } from "@/components/ui";
 
@@ -32,7 +32,7 @@ export function Testimonials() {
                   index === 1 ? "text-paper" : "text-north"
                 }`}
               >
-                “{testimonial.quote}”
+                "{testimonial.quote}"
               </blockquote>
               <figcaption
                 className={`mt-6 text-sm ${
@@ -49,3 +49,4 @@ export function Testimonials() {
     </Section>
   );
 }
+

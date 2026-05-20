@@ -1,4 +1,4 @@
-export const business = {
+﻿export const business = {
   name: "NorthStar Property Maintenance",
   location: "Manchester, UK",
   phone: "+44 7400 123456",
@@ -6,6 +6,8 @@ export const business = {
   email: "hello@northstarmaintenance.co.uk",
   emailHref: "mailto:hello@northstarmaintenance.co.uk",
   whatsapp: "https://wa.me/447400123456",
+  mapEmbed:
+    "https://www.google.com/maps?q=Manchester%2C%20UK&output=embed",
   serviceAreas: [
     "Manchester",
     "Salford",
@@ -28,6 +30,7 @@ export const navItems = [
   { label: "Services", href: "#services" },
   { label: "Landlords", href: "#landlords" },
   { label: "Tracker", href: "#tracker" },
+  { label: "Reviews", href: "#reviews" },
   { label: "Pricing", href: "#pricing" },
   { label: "Contact", href: "#contact" },
 ];
@@ -108,20 +111,54 @@ export const projects = [
   {
     area: "Salford",
     title: "Bathroom leak contained before floor damage spread",
-    before: "Active leak through bath seal, tenant reporting wet flooring and ceiling marks below.",
-    after: "Resealed bath, replaced damaged panel, checked pipework, and sent landlord photo evidence.",
+    image: "/images/boiler-repair.jpg",
+    imageAlt:
+      "Close-up of a technician adjusting heating equipment during a property maintenance visit",
+    before:
+      "Active leak through bath seal, tenant reporting wet flooring and ceiling marks below.",
+    after:
+      "Resealed bath, replaced damaged panel, checked pipework, and sent landlord photo evidence.",
   },
   {
     area: "Oldham HMO",
     title: "Bedroom damp patch treated and monitored",
-    before: "Tenant raised visible mould behind furniture with poor ventilation notes.",
-    after: "Treated affected surface, logged ventilation advice, and booked follow-up inspection.",
+    image: "/images/wall-repair.jpg",
+    imageAlt: "Maintenance worker sanding and repairing an interior wall",
+    before:
+      "Tenant raised visible mould behind furniture with poor ventilation notes.",
+    after:
+      "Treated affected surface, logged ventilation advice, and booked follow-up inspection.",
   },
   {
     area: "Stockport",
     title: "End-of-tenancy refresh completed before viewings",
-    before: "Scuffed walls, loose handle, cracked sealant, and several minor handyman items.",
-    after: "Decorating touch-ups, lock check, sealant replacement, and agent-ready completion report.",
+    image: "/images/light-repair.jpg",
+    imageAlt: "Handyman standing on a ladder while repairing a light in a room",
+    before:
+      "Scuffed walls, loose handle, cracked sealant, and several minor handyman items.",
+    after:
+      "Decorating touch-ups, lock check, sealant replacement, and agent-ready completion report.",
+  },
+];
+
+export const mediaFeatures = [
+  {
+    title: "Photo evidence built into the enquiry",
+    body: "Real maintenance imagery makes the site feel credible before the visitor reads a word.",
+    image: "/images/wall-repair.jpg",
+    alt: "Maintenance worker repairing and sanding a property wall",
+  },
+  {
+    title: "Boiler and heating calls framed as urgent work",
+    body: "Heating visuals help sell high-value emergency response, not only basic handyman jobs.",
+    image: "/images/boiler-repair.jpg",
+    alt: "Technician working on boiler and heating controls",
+  },
+  {
+    title: "Landlord trust cues for portfolio owners",
+    body: "Property key imagery makes the offer relevant to landlords, agents, and managed rentals.",
+    image: "/images/landlord-keys.jpg",
+    alt: "Hand holding house keys inside a rental property",
   },
 ];
 
@@ -146,24 +183,74 @@ export const testimonials = [
   },
 ];
 
+export const googleReviews = [
+  {
+    name: "Rebecca Melling",
+    role: "Landlord in Didsbury",
+    rating: 5,
+    date: "2 weeks ago",
+    quote:
+      "NorthStar handled a leaking bathroom in one of my rentals and kept the tenant updated without me chasing. Clear photos, fair quote, tidy finish.",
+  },
+  {
+    name: "Adil Hussain",
+    role: "HMO owner in Salford",
+    rating: 5,
+    date: "1 month ago",
+    quote:
+      "Fast response on a broken lock and a follow-up report for our records. Exactly the kind of contractor an HMO needs on call.",
+  },
+  {
+    name: "Gemma Oakes",
+    role: "Lettings coordinator",
+    rating: 5,
+    date: "3 months ago",
+    quote:
+      "The team understands access notes, tenant availability, and landlord approvals. That alone saves our office a lot of back and forth.",
+  },
+  {
+    name: "Naveen Carter",
+    role: "Homeowner in Stockport",
+    rating: 5,
+    date: "4 months ago",
+    quote:
+      "Booked damp treatment and decorating touch-ups before selling. The work was neat, photographed, and completed when promised.",
+  },
+];
+
 export const packages = [
   {
     name: "One-Off Repair",
-    price: "From £95",
-    summary: "For single callouts, tenant-reported repairs, and urgent property issues.",
-    features: ["Structured request intake", "Phone and WhatsApp response", "Photo evidence prompt"],
+    price: "From \u00A395",
+    summary:
+      "For single callouts, tenant-reported repairs, and urgent property issues.",
+    features: [
+      "Structured request intake",
+      "Phone and WhatsApp response",
+      "Photo evidence prompt",
+    ],
   },
   {
     name: "Landlord Care",
-    price: "From £149/mo",
-    summary: "For landlords who want routine maintenance handled without constant chasing.",
-    features: ["Priority scheduling", "Monthly repair summary", "End-of-tenancy support"],
+    price: "From \u00A3149/mo",
+    summary:
+      "For landlords who want routine maintenance handled without constant chasing.",
+    features: [
+      "Priority scheduling",
+      "Monthly repair summary",
+      "End-of-tenancy support",
+    ],
   },
   {
     name: "Agent Portfolio",
     price: "Custom",
-    summary: "For letting agents and HMO managers who need job visibility across addresses.",
-    features: ["Multi-property workflow", "Approval stages", "Repair tracker dashboard upsell"],
+    summary:
+      "For letting agents and HMO managers who need job visibility across addresses.",
+    features: [
+      "Multi-property workflow",
+      "Approval stages",
+      "Repair tracker dashboard upsell",
+    ],
   },
 ];
 
@@ -181,7 +268,7 @@ export const faqs = [
   {
     question: "Does the repair form send emails?",
     answer:
-      "Not in this demo. It shows a success state and ticket preview only. Email, CRM, or dashboard integrations can be added as a paid upgrade.",
+      "Not in this demo. It shows a success state and ticket preview only. Email, CRM, Google review embeds, or dashboard integrations can be added as a paid upgrade.",
   },
   {
     question: "Who is this website aimed at?",
